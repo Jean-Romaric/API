@@ -27,9 +27,7 @@
     console.error('Il y a eu un problème avec l\'opération fetch :', error);
   }
 }
-// Appelez la fonction pour exécuter la requête
   fetchData();
-  console.log('S execute apres fetchData mais avant la fin de fetchData' );
 
 
 });
