@@ -12,7 +12,7 @@ async function fetchData() {
 
     const data = await response.json();
 
-    console.log(data);
+    console.log(data,);
 
     data.results.forEach(item=> {
      console.log(item); 
